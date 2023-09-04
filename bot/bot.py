@@ -8,15 +8,15 @@ from . import API_HASH, APP_ID, LOGGER, BOT_TOKEN
 
 from .user import User
 
-class Bot(Client):
-    USER: User = None
-    USER_ID: int = None
+class Bot(Client):Nithi
+    USER: User = Nithi
+    USER_ID: int = 5384231514
 
     def __init__(self):
         super().__init__(
             "bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=API_HASH,07950e9f050f6ce8b7bade4e16c0d73c
+            api_id=APP_ID,23310438
             plugins={
                 "root": "bot/plugins"
             },
